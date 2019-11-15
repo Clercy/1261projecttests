@@ -1,0 +1,18 @@
+ENV TOKEN=cebd1261 docker-compose --f jupyter_bind-compose.yml up
+
+Tried :
+      - 8889:8888
+      # - 3030-3080:3030-3080
+      
+	Didn't work
+Tried :
+	- 8889:8888
+	- "4040-4080:4040-4080"
+This worked : 
+	- "8888:8888"
+      	- "4040-4080:4040-4080"
+
+
+ENV TOKEN=cebd1261 docker-compose --f jupyter_bind-compose.yml up
+ENV TOKEN=cebd1261 docker-compose --f spark_bind-compose.yml up
+spark_bind-compose.yml

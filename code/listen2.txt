@@ -1,0 +1,2 @@
+  TCP    0.0.0.0:8080           LAPTOP-D2T6EOO0:0      LISTENING
+  TCP    [::]:8080              LAPTOP-D2T6EOO0:0      LISTENING
